@@ -5,10 +5,9 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #00F1FF;
 }
 .container{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
