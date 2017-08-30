@@ -6,7 +6,7 @@ body{
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-.container{
+.mycontainer{
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
