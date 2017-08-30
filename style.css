@@ -44,6 +44,7 @@ body{
 .btn-default {
     color: #c3c5c8;
     background-color: #24262f;
+    border: none;
     outline: none;
     border-radius: 20px;
 }
@@ -60,5 +61,6 @@ button.mapboxgl-ctrl-icon.mapboxgl-ctrl-compass {
 .mapboxgl-ctrl-group > button{
     margin: 10px;
     background-color: black;
+    border: none;
     border-radius: 50%;
 }
