@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mapbox Custom Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-div">
+                <div id='menu'>
+                    <a id='streets' class="active" href="#">Street View</a>
+                    <a id='satellite' href="#">Satellite View</a>
+                </div>
+        </div>
+        <div id='map' class="map-div">
+                <div class="dropdown dropdown--secondary">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">11 July 2017
+                            <span  class="caret"></span>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">11 July 2017</a></li>
+                                <li><a href="#">11 July 2017</a></li>
+                                <li><a href="#">11 July 2017</a></li>
+                                <li><a href="#">11 July 2017</a></li>
+                            </ul>
+                    </div>
+        </div>
+    </div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
